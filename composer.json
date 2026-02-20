@@ -1,16 +1,17 @@
 {
     "name": "jbevanac/time-interface",
     "type": "library",
-    "description": "Converts hours, minutes and seconds into each other.",
+    "description": "Simple utility library for converting between hours, minutes, and seconds.",
+    "keywords": ["time", "hours", "minutes", "seconds", "converter"],
+    "license": "MIT",
     "authors": [
         {
             "name": "jbevanac",
             "email": "62661464+jbevanac@users.noreply.github.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "php" : "8.*"
+        "php": ">=8.0"
     },
     "autoload": {
         "psr-4": {
